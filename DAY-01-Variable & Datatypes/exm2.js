@@ -1,3 +1,5 @@
+// datatypes in javascript
+
 let x = "HARRY BHAI";
 let y = 22;
 let z = 3.55;
