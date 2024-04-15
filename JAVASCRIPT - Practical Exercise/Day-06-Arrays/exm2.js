@@ -5,4 +5,12 @@ for(let elements in myfriends ){
     console.log(elements);
 }
 
+for(let elements of myfriends){
+    console.log(elements);
+}
+
 // calls a function for each  elements in the array.
+
+myfriends.forEach(function(elements,index,array) {
+    console.log(elements + "index :" + index);
+});
